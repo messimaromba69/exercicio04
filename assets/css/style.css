@@ -1,0 +1,50 @@
+/**reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3B4664;
+    display: flex;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-up{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-up-left h2{
+    display: flex;
+    color: white;
+}
+.box-up-right{
+    display: flex;
+    color: white;
+    font-size: 5px;
+}
+.theme{
+    display: flex;
+}
+.select-theme nav ol{
+    list-style: none;
+    display: flex;
+    font-size: 5px;
+}
+.box-select{
+    display: flex;
+}
+.box-center input{
+    width: 500px;
+    height: 120px;
+    background-color: #181F32;
+    border: 1px solid #181F32;
+    border-radius: 10px;
+}
